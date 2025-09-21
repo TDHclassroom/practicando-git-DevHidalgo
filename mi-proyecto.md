@@ -5,5 +5,5 @@
       ## Características
    - Aprendiendo Git paso a paso
 
-## Información del proyecto
-   Versión desarrollada en rama main
+     ## Última actualización
+     Editado desde GitHub web interface
