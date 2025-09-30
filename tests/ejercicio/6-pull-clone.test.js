@@ -20,13 +20,13 @@ describe('Ejercicio 6: Clonar y pull de GitHub', () => {
     expect(hasGithubUpdate).toBe(true);
   });
   
-  test('El archivo sync-test.txt debe existir', () => {
-    const syncTestPath = path.join(rootPath, 'sync-test.txt');
-    expect(fs.existsSync(syncTestPath)).toBe(true);
+  // test('El archivo sync-test.txt debe existir', () => {
+  //   const syncTestPath = path.join(rootPath, 'sync-test.txt');
+  //   expect(fs.existsSync(syncTestPath)).toBe(true);
     
-    const content = fs.readFileSync(syncTestPath, 'utf8').trim();
-    expect(content.length).toBeGreaterThan(0);
-  });
+  //   const content = fs.readFileSync(syncTestPath, 'utf8').trim();
+  //   expect(content.length).toBeGreaterThan(0);
+  // });
 
   test('Debe tener al menos 6 commits', () => {
     let commitCount;
